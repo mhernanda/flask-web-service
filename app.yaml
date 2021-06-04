@@ -1,0 +1,8 @@
+#app.yaml
+runtime: python38
+
+env_variables:
+  CLOUD_SQL_USERNAME: root
+  CLOUD_SQL_PASSWORD: dejays
+  CLOUD_SQL_DATABASE_NAME: db_products
+  CLOUD_SQL_CONNECTION_NAME: sigma-scheduler-315513:asia-southeast1:db-products
